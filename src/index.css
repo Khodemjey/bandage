@@ -1,3 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .container {
+    @apply mx-[2.19rem] lg:mx-[2.38rem];
+  }
+  .dark-nav-container {
+    @apply hidden lg:flex w-full bg-[#252B42];
+  }
+  .call-btn-style {
+    @apply flex gap-x-[0.3rem] text-white font-mont font-bold items-center;
+  }
+  .call-btn-style img {
+    @apply w-[1rem] h-[1rem];
+  }
+  .call-btn-style span {
+    @apply text-[0.87rem];
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
