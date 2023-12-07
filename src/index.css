@@ -11,7 +11,7 @@
     @apply text-[0.875rem] font-mont text-[#FFFFFF] font-bold;
   }
   .dark-nav-container {
-    @apply hidden lg:flex lg:w-full bg-[#252B42];
+    @apply hidden lg:flex lg:w-full bg-[#252B42] py-[.5rem];
   }
   .call-btn-style {
     @apply flex gap-x-[0.3rem] text items-center;

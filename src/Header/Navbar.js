@@ -11,18 +11,32 @@ export default function Navbar() {
 
     return (
         <div className="dark-nav-container">
-            <div className="flex w-full justify-around ">
-                <div className="container p-[0.62rem] flex">
-                    <div className="flex items-center gap-x-[0.62rem]">
+            <div className="flex w-full justify-between items-center px-[1.5rem]">
+                <div className="p-[0.62rem] flex">
+                    <div className="flex items-center gap-x-[0.62rem] max-w-max">
                         <Callbtn {...callbtnlist[0]} />
                         <Callbtn {...callbtnlist[1]} />
                     </div>
                 </div>
                 <div>
-                    <span className="text">Follow Us  and get a chance to win 80% off</span>
+                    <p className="text">Follow Us  and get a chance to win 80% off</p>
                 </div>
-                <div>
-                    <span className="text">Follow Us  and get a chance to win 80% off</span>
+                <div className="flex items-center gap-x-[0.94rem]">
+                    <p className="text">Follow Us :</p>
+                    <div className="flex gap-x-[0.97rem]">
+                        <a href="#">
+                            <img src="./header/navbar/social/instagram.svg" alt="instagram-logo" />
+                        </a>
+                        <a href="#">
+                            <img src="./header/navbar/social/youtube.svg" alt="instagram-logo" />
+                        </a>
+                        <a href="#">
+                            <img src="./header/navbar/social/facebook.svg" alt="facebook-logo" />
+                        </a>
+                        <a href="#">
+                            <img src="./header/navbar/social/twitter.svg" alt="twitter-logo" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
