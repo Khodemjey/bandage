@@ -11,14 +11,19 @@ export default function Navbar() {
 
     return (
         <div className="dark-nav-container">
-            <div className="flex">
+            <div className="flex w-full justify-around ">
                 <div className="container p-[0.62rem] flex">
                     <div className="flex items-center gap-x-[0.62rem]">
                         <Callbtn {...callbtnlist[0]} />
                         <Callbtn {...callbtnlist[1]} />
                     </div>
                 </div>
-
+                <div>
+                    <span className="text">Follow Us  and get a chance to win 80% off</span>
+                </div>
+                <div>
+                    <span className="text">Follow Us  and get a chance to win 80% off</span>
+                </div>
             </div>
         </div>
     )

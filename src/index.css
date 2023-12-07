@@ -7,17 +7,20 @@
   .container {
     @apply mx-[2.19rem] lg:mx-[2.38rem];
   }
+  .text {
+    @apply text-[0.875rem] font-mont text-[#FFFFFF] font-bold;
+  }
   .dark-nav-container {
-    @apply hidden lg:flex w-full bg-[#252B42];
+    @apply hidden lg:flex lg:w-full bg-[#252B42];
   }
   .call-btn-style {
-    @apply flex gap-x-[0.3rem] text-white font-mont font-bold items-center;
+    @apply flex gap-x-[0.3rem] text items-center;
   }
   .call-btn-style img {
     @apply w-[1rem] h-[1rem];
   }
   .call-btn-style span {
-    @apply text-[0.87rem];
+    @apply text;
   }
 }
 
